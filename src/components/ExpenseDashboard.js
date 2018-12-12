@@ -1,10 +1,10 @@
 import React from 'react';
 import ExpenseList from './ExpenseList';
 
-const ExpenseDashboard= () => (
+const ExpenseDashboard = () => (
   <div>
      <ExpenseList />
   </div>
 );
 
-export default ExpenseDashboard
+export default ExpenseDashboard;
