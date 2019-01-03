@@ -1,9 +1,18 @@
 {
   "name": "savers",
+  "jest": {
+    "verbose": true
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.1",
     "jest": "^23.6.0",
     "moment": "^2.22.2",
